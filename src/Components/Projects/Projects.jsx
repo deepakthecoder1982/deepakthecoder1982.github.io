@@ -1,6 +1,6 @@
-import React from "react";
-import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+import React from 'react';
+import './Projects.css';
+import { FaReact, FaHardHat } from 'react-icons/fa';
 import {
   SiBlockchaindotcom,
   SiHtml5,
@@ -13,11 +13,16 @@ import {
   SiReactrouter,
   SiJavascript,
   SiMongodb,
-  SiNodedotjs
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+  SiNodedotjs,
+  SiChakraui,
+  SiCss3,
+  SiReact,
+  SiCodesandbox,
+  SiFigma,
+} from 'react-icons/si';
+import { DiCss3 } from 'react-icons/di';
+import { VscJson } from 'react-icons/vsc';
+import { IoLogoJavascript } from 'react-icons/io';
 export const Projects = () => {
   return (
     <>
@@ -25,32 +30,30 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
-        {/* <div className="projects_container">
+        <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
-                  alt="Mail Chimp"
+                  src="https://user-images.githubusercontent.com/108220666/256259386-ccdc0a2d-e483-430b-a018-5db8dadca5bf.png"
+                  alt="Masai Vaccination Center"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Mail Chimp Replica</h2>
+              <h2 style={{ textAlign: 'center' }}>Masai Vaccination Center</h2>
               <p>
-                Clone of the popular email campaigning app Mail Chimp. Built on react for front end and nodeJS on backend. It's a team project completed executed in 5 days.
+                An online platform to track the Vaccination of patients build
+                individually within the span of one week.
               </p>
               <div>
-                <FaReact />
                 <SiHtml5 />
                 <IoLogoJavascript />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
+                <DiCss3 />
               </div>
               <div>
                 <a
-                  href="https://mail-chimp-clone.vercel.app/"
+                  href="https://jocular-jelly-9bc823.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -59,52 +62,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/harshchaturvedi1/mailChimp-clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src="https://i.ibb.co/6vdbyj2/Screenshot-405.png"
-                  alt="Myntra"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>Myntra Clone</h2>
-              <p>
-                First Backend Project with NodeJS, ExpressJS and MongoDB. Used EJS to render views. Main functionalities were : Register/Login using JWT, Sorting and Filtering in the backend, Cart and Wish List and many more.
-              </p>
-              <div>
-                <IoLogoJavascript />
-                <FaReact />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
-              </div>
-              <div>
-                <a
-                  href="https://newmyntra.herokuapp.com/home"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/imbickydutta/myntra"
+                  href="https://github.com/deepakthecoder1982/Masai-Vaccination-Center"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -121,24 +79,78 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://news-cdn.softpedia.com/images/news2/Dropbox-2-9-Enters-Development-with-Streaming-Sync-Feature-442773-2.jpg"
+                  width={'100%'}
+                  height={'100%'}
+                  src="https://user-images.githubusercontent.com/108220666/256293666-bd964660-90e7-4637-a38b-4266ecad28f6.png"
+                  alt="Clothy"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2 style={{ textAlign: 'center' }}>
+                Clothy : Clothes shoping platform
+              </h2>
+              <p>
+                Discover our pocket-friendly e-commerce platform, built in just
+                7 days by our talented team of 5. With User and Admin section.
+              </p>
+              <div>
+                <IoLogoJavascript />
+                <FaReact />
+                <SiChakraui />
+                <SiCss3 />
+                <SiReactrouter />
+              </div>
+              <div>
+                <a
+                  href="https://clothy-amazing-shoping-website.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Surajy001/useful-hook-4555"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/108220666/248779041-67ff3759-2fe0-4560-ab56-be58ac890149.png"
                   alt=""
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Backend API for Drive / DropBox Clone </h2>
+              <h2 style={{ textAlign: 'center' }}>TODO:Your Task Manager</h2>
               <p>
-                Backend API for a google drive like app built using NodeJS, Express, Mongoose, MongoDB Atlas and AWS S3 for storage. A solo project. CRUD operations for users, files and folders.
+                Mange your task on time with the help of TODO with a great UI.
+                Your can Create Read Update and Delete the Task. Build this to
+                learn tailwind CSS.
               </p>
               <div>
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
+                <SiReact />
+                <SiJavascript />
+                <SiCss3 />
+                <SiFigma />
+                <SiTailwindcss />
               </div>
               <div>
                 <a
-                  href="https://drive-system.herokuapp.com/"
+                  href="https://64996e1ca974280092702075--charming-bubblegum-9a6cd7.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -147,7 +159,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/file-system-backend"
+                  href="https://github.com/deepakthecoder1982/FullStackTodoApplication"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -163,25 +175,25 @@ export const Projects = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img
-                  src="https://i.ibb.co/1bsxCjF/Screenshot-349.png"
-                  alt="TicTacToe"
-                />
+                <img src="https://user-images.githubusercontent.com/110231091/223406440-15f59025-923e-4a37-8130-d523fc9a7d49.png" alt="Sports Wear Delight" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Classic TicTacToe</h2>
-              <p>
-                Mini project of A classic TicTacToe game built using ReactJS. Features : Button for Resetting The Game, History of all the moves played (undo a move), etc.
+              <h2 style={{ textAlign: 'center' }}>SWD: Sports Wear Delight</h2>
+              <p style={{textAlign:'center'}}>
+                Sports Wear Delight is a clone of Eastern Mountain Sports.
+                An ecommerse website where users can buy best clothes of their
+                desires wth latest fashion on the top in thier budget.It was a
+                build by 5 team members within the span of 7 days. Learn a lot during it.
               </p>
               <div>
-                <FaReact />
+                <SiJavascript/>
                 <SiHtml5 />
                 <DiCss3 />
               </div>
               <div>
                 <a
-                  href="https://tictactoe-bicky.netlify.app/"
+                  href="https://amazing-concha-0e1468.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -190,7 +202,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/tictactoe/tree/master"
+                  href="https://github.com/deepakthecoder1982/Sports-Wear-Delight"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -202,49 +214,6 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src="https://i.ibb.co/PMny3hW/Screenshot-406.png"
-                  alt="TicTacToe"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>Star Wars Search</h2>
-              <p>
-                Vanilla JS web app to Search for any Star Wars Character. Build with the help of Star Wars API and has the Classic UI (Color theme) of the original Star Wars Movie. Built to learn APIs and use them in the project.
-              </p>
-              <div>
-                <SiHtml5 />
-                <DiCss3 />
-                <IoLogoJavascript />
-              </div>
-              <div>
-                <a
-                  href="https://searchstarwars.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/imbickydutta/starWarsCharacterSearch"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   );

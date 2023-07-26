@@ -14,7 +14,7 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-      <div className="about center">
+      <div id='about' className="about center section">
         <h1 data-aos="fade-right">
           Hi, I am <span className="about__name">Deepak Yadav</span>
         </h1>
@@ -53,7 +53,7 @@ export const About = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/deepak-archana-mahesh-yadav-ab4438216/"
-            aria-label="github"
+            aria-label="linkdin"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
@@ -62,16 +62,18 @@ export const About = () => {
           </a>
           <a
             href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view"
-            aria-label="github"
+            aria-label="resume"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
+            download
           >
+            {/* <img href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view" /> */}
             <DescriptionIcon />
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100024072726919"
-            aria-label="github"
+            aria-label="facebook"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
@@ -79,8 +81,8 @@ export const About = () => {
             <FacebookIcon />
           </a>
           <a
-            href="https://goo.gl/maps/QyNYmATTCdkq1Af69"
-            aria-label="github"
+            href="https://goo.gl/maps/yrRcAsiA9nxeiLr66"
+            aria-label="location"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
