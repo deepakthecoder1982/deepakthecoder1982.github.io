@@ -7,7 +7,7 @@
 
 ## Live Link: https://deepakthecoder1982.netlify.app
 
-**Just In case you want to clone or you are curious about how it looks just copy the command  below the link and just copy the below command**
+**Just In case you want to clone or you are curious about how it looks copy the below command and paste it into your terminal ` Happy Coding 💻!`**
 ```
 git clone https://github.com/deepakthecoder1982/deepakthecoder1982.github.io.git
 cd deepakthecoder1982.github.io
