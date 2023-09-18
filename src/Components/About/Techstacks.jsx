@@ -1,6 +1,6 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaPython } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
@@ -8,9 +8,13 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiPython,
+  SiElectron,
+  SiDataversioncontrol,
+  SiPostman
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { DiAngularSimple, DiCss3, DiDjango, DiMongodb, DiMysql } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
@@ -18,8 +22,8 @@ import { BsBootstrap } from "react-icons/bs";
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right">
-        <h2 className="section__title different">Skills</h2>
+      <div className="section main" style={{margin:'10em 0'}} data-aos="fade-right">
+        <h2 className="section__title different" >Skills</h2>
         <div className="techsection">
           <div>
             <SiJavascript />
@@ -45,7 +49,6 @@ export const Techstacks = () => {
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>
-
           <div>
             <SiExpress />
             <h5>Express</h5>
@@ -70,6 +73,30 @@ export const Techstacks = () => {
           <div>
             <VscGithub />
             <h5>Github</h5>
+          </div>
+          <div>
+            <SiPython />
+            <h5>Python</h5>
+          </div>
+          <div>
+            <DiDjango />
+            <h5>Python</h5>
+          </div>
+          <div>
+            <DiAngularSimple />
+            <h5>Angular</h5>
+          </div>
+          <div>
+            <DiMysql/>
+            <h5>Mysql</h5>
+          </div>
+          <div>
+            <SiElectron/>
+            <h5>Electron Js</h5>
+          </div>
+          <div>
+            <SiPostman/>
+            <h5>Electron Js</h5>
           </div>
         </div>
       </div>

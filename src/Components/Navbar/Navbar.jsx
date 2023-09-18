@@ -1,10 +1,10 @@
-import React from "react";
-import { ThemeContext } from "../../Context/theme";
-import "./Navbar.css";
-import Brightness2Icon from "@material-ui/icons/Brightness2";
-import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
-import MenuIcon from "@material-ui/icons/Menu";
-import CloseIcon from "@material-ui/icons/Close";
+import React from 'react';
+import { ThemeContext } from '../../Context/theme';
+import './Navbar.css';
+import Brightness2Icon from '@material-ui/icons/Brightness2';
+import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded';
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -21,13 +21,13 @@ export const Navbar = () => {
     <>
       <nav className="center nav" id="nav-menu">
         <ul
-          style={{ display: showNavList ? "flex" : null }}
+          style={{ display: showNavList ? 'flex' : null }}
           className="nav__list"
         >
           <li className="nav__list-item">
             <a
               href="#home"
-              onClick={() => toggleNavList("#home")}
+              onClick={() => toggleNavList('#home')}
               className="link link--nav"
             >
               Home
@@ -36,7 +36,7 @@ export const Navbar = () => {
           <li className="nav__list-item">
             <a
               href="#about"
-              onClick={() => toggleNavList("#about")}
+              onClick={() => toggleNavList('#about')}
               className="link link--nav"
             >
               About
@@ -45,7 +45,7 @@ export const Navbar = () => {
           <li className="nav__list-item">
             <a
               href="#skills"
-              onClick={() => toggleNavList("#skills")}
+              onClick={() => toggleNavList('#skills')}
               className="link link--nav"
             >
               Skills
@@ -54,7 +54,7 @@ export const Navbar = () => {
           <li className="nav__list-item">
             <a
               href="#projects"
-              onClick={() => toggleNavList("#projects")}
+              onClick={() => toggleNavList('#projects')}
               className="link link--nav"
             >
               Projects
@@ -63,7 +63,7 @@ export const Navbar = () => {
           <li className="nav__list-item">
             <a
               href="#contact"
-              onClick={() => toggleNavList("#contact")}
+              onClick={() => toggleNavList('#contact')}
               className="link link--nav"
             >
               Contact
@@ -71,11 +71,13 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view?usp=sharing"
-              onClick={toggleNavList}
+              href="https://drive.google.com/u/0/uc?id=1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr&export=download"
               className="link link--nav"
-              target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
+              download
+              onClick={(e)=>{
+                window.open("https://drive.google.com/file/d/1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr/view?usp=sharing","_blank");
+              }}
             >
               Resume
             </a>
@@ -86,9 +88,9 @@ export const Navbar = () => {
           onClick={toggeltheme}
           className="btn btn--icon nav__theme"
           aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" }}
+          style={{ backgroundColor: 'inherit' }}
         >
-          {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+          {themename === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
         </button>
         <button
           type="button"

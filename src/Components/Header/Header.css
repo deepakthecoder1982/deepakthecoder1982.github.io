@@ -1,9 +1,10 @@
 .header {
-  height: 8em;
-  max-width: 1100px;
+  /* max-width: 1100px; */
+  height: 6em;
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
+  padding: 0px 50px;
 }
 
 @media (max-width: 600px) {

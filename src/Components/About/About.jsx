@@ -14,7 +14,7 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-      <div id='about' className="about center section">
+      <div id='#home' className="about center section">
         <h1 data-aos="fade-right">
           Hi, I am <span className="about__name">Deepak Yadav</span>
         </h1>
@@ -43,10 +43,10 @@ export const About = () => {
           </a>
           <a
             // href="tel:+917001347896"
-            href="tel:-+919137270148"
+            href="tel:+919137270148"
             target="_blank"
             rel="noreferrer"
-            aria-label="github"
+            aria-label="phone"
             className="link link--icon"
           >
             <PhoneIcon />
@@ -61,13 +61,15 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view"
+            href="https://drive.google.com/u/0/uc?id=1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr&export=download"
             aria-label="resume"
             className="link link--icon"
-            target="_blank"
             rel="noreferrer"
-            download
+            onClick={()=>{
+              window.open("https://drive.google.com/file/d/1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr/view?usp=sharing","_blank");
+            }}
           >
+            
             {/* <img href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view" /> */}
             <DescriptionIcon />
           </a>

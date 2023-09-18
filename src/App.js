@@ -18,10 +18,10 @@ export default function App() {
   }, []);
   return (
     <div id="top" className={`${themename} app`}>
-      <section id="#home">
+      <section id="#home" className="home">
         <Header />
       </section>
-      <main>
+      <main style={{marginTop:'6vw'}}>
         <About />
         <Github />
         <section id="#projects">

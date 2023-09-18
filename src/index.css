@@ -49,3 +49,7 @@ a {
 button {
   cursor: pointer;
 }
+
+#home{
+  background-color: aqua;
+}
