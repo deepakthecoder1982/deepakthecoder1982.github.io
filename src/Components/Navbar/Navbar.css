@@ -33,5 +33,6 @@
     display: flex;
     z-index: 2;
     margin-left: 0.8em;
+    height: 10vh;
   }
 }

@@ -52,7 +52,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/deepak-archana-mahesh-yadav-ab4438216/"
+            href="https://www.linkedin.com/in/deepak-archana-mahesh-yadav"
             aria-label="linkdin"
             className="link link--icon"
             target="_blank"
@@ -61,14 +61,14 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view"
+            href="https://drive.google.com/uc?export=download&id=1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr"
             aria-label="resume"
             className="link link--icon"
-            target="_blank"
+            onClick={(e)=>{
+              window.open("https://drive.google.com/file/d/1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr/view","_blank")
+            }}
             rel="noreferrer"
-            download
           >
-            {/* <img href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view" /> */}
             <DescriptionIcon />
           </a>
           <a

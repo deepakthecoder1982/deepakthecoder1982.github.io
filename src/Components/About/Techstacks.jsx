@@ -1,6 +1,6 @@
-import React from "react";
-import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import React from 'react';
+import './Techstacks.css';
+import { FaReact, FaNodeJs, FaAngular, FaAws } from 'react-icons/fa';
 import {
   SiRedux,
   SiHtml5,
@@ -8,12 +8,18 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
-} from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap } from "react-icons/bs";
+  SiNetlify,
+  SiPostman,
+  SiUikit,
+  SiTypescript,
+  SiSublimetext,
+  SiCycling74,
+  SiRailway,
+} from 'react-icons/si';
+import { DiAws, DiCss3, DiDjango, DiHeroku, DiLinux, DiMongodb, DiMysql, DiPython, DiSass, DiSublime, DiVisualstudio } from 'react-icons/di';
+import { SiJavascript } from 'react-icons/si';
+import { VscCode, VscGithub } from 'react-icons/vsc';
+import { BsBootstrap } from 'react-icons/bs';
 
 export const Techstacks = () => {
   return (
@@ -21,6 +27,7 @@ export const Techstacks = () => {
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
+          <h3 style={{ color: 'whitesmoke',fontSize:'1.8rem' }}>Tech Stacks</h3>
           <div>
             <SiJavascript />
             <h5>Javascript</h5>
@@ -64,12 +71,51 @@ export const Techstacks = () => {
             <h5>Tailwind CSS</h5>
           </div>
           <div>
+            <DiPython/>
+            <h5>Python</h5>
+          </div>
+          <div>
+            <DiDjango/>
+            <h5>Django</h5>
+          </div>
+          {/* <div>
+            <FaAngular/>
+            <h5>Angular</h5>
+          </div> */}
+          {/* <div>
+            <DiMysql/>
+            <h5>MySQL</h5>
+          </div> */}
+        </div>
+        <div className="toolsSection" >
+          <h3 style={{ color: 'whitesmoke',textAlign:'center',margin:'1.6rem auto',fontSize:'1.8rem'}}> Tools</h3>
+          <div>
             <SiNetlify />
             <h5>Netlify</h5>
           </div>
           <div>
             <VscGithub />
             <h5>Github</h5>
+          </div>
+          <div>
+            <SiPostman />
+            <h5>Postman</h5>
+          </div>
+          <div>
+            <DiVisualstudio />
+            <h5>Vs Code</h5>
+          </div>
+          {/* <div>
+            <DiHeroku/>
+            <h5>Heroku</h5>
+          </div>
+          <div>
+            <FaAws/>
+            <h5>Heroku</h5>
+          </div> */}
+          <div>
+            <SiSublimetext/>
+            <h5>Sublime</h5>
           </div>
         </div>
       </div>

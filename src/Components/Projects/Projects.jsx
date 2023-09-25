@@ -53,7 +53,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://jocular-jelly-9bc823.netlify.app/"
+                  href="https://vaccinationcenter.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -112,7 +112,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Surajy001/useful-hook-4555"
+                  href="https://github.com/deepakthecoder1982/Full_Stack_Ecommerse_Website"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -150,7 +150,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://64996e1ca974280092702075--charming-bubblegum-9a6cd7.netlify.app/"
+                  href="https://todo-your-favourite-task-planner.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

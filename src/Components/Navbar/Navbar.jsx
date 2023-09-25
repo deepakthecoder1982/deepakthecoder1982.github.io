@@ -71,10 +71,12 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="https://drive.google.com/file/d/1lwW2s74zmM3Q_XlyT_nKwMSBYZARu74j/view?usp=sharing"
-              onClick={toggleNavList}
+              href="https://drive.google.com/uc?export=download&id=1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr"
+              onClick={()=>{
+                toggleNavList();
+                window.open("https://drive.google.com/file/d/1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr/view","_blank")
+              }}
               className="link link--nav"
-              target="_blank"
               rel="noreferrer"
             >
               Resume
