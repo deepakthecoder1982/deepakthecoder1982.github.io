@@ -25,7 +25,6 @@ export default function App() {
       </div>
       <main>
         <About />
-
         <Github />
         <section id="#projects">
           <Projects />
