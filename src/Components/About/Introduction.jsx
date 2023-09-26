@@ -9,7 +9,7 @@ export const Introduction = () => {
 
   return (
     <>
-      <section id="#about">
+      <section id="about">
         <div className="section" data-aos="fade-right">
           <h2 className="section__title">
             About <span className="different">Me</span>
@@ -19,6 +19,7 @@ export const Introduction = () => {
               <img
                 src="https://avatars.githubusercontent.com/u/108220666?v=4"
                 alt="Deepak Yadav"
+                className="home-img"
               />
             </div>
             <div className="introduction_datacontainer">

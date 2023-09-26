@@ -30,7 +30,7 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
-        <div className="projects_container">
+        <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
@@ -41,23 +41,23 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2 style={{ textAlign: 'center' }}>Masai Vaccination Center</h2>
-              <p>
+              <h2 style={{ textAlign: 'center' }} className='project-title'>Masai Vaccination Center</h2>
+              <p className='project-title-description'>
                 An online platform to track the Vaccination of patients build
                 individually within the span of one week.
               </p>
-              <div>
+              <div className='project-tech-stack'>
                 <SiHtml5 />
                 <IoLogoJavascript />
                 <DiCss3 />
               </div>
-              <div>
+              <div className='project-deployed-link'>
                 <a
                   href="https://vaccinationcenter.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn btn--outline onbt project-github-link">
                     See this Live
                   </span>
                 </a>
@@ -74,7 +74,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="projects_container">
+        <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
@@ -87,14 +87,14 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2 style={{ textAlign: 'center' }}>
+              <h2 style={{ textAlign: 'center' }} className='project-title'>
                 Clothy : Clothes shoping platform
               </h2>
-              <p>
+              <p className='project-description'>
                 Discover our pocket-friendly e-commerce platform, built in just
                 7 days by our talented team of 5. With User and Admin section.
               </p>
-              <div>
+              <div className='project-tech-stack'>
                 <IoLogoJavascript />
                 <FaReact />
                 <SiChakraui />
@@ -106,6 +106,7 @@ export const Projects = () => {
                   href="https://clothy-amazing-shoping-website.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  className='project-deployed-link'
                 >
                   <span type="button" className="btn btn--outline onbt">
                     See this Live
@@ -115,6 +116,7 @@ export const Projects = () => {
                   href="https://github.com/deepakthecoder1982/Full_Stack_Ecommerse_Website"
                   target="_blank"
                   rel="noreferrer"
+                  className='project-github-link'
                 >
                   <span type="button" className="btn btn--outline">
                     View Code
@@ -124,7 +126,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="projects_container">
+        <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
@@ -171,7 +173,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="projects_container">
+        <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">

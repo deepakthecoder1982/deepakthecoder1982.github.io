@@ -28,9 +28,9 @@ export const Techstacks = () => {
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <h3 style={{ color: 'whitesmoke',fontSize:'1.8rem' }}>Tech Stacks</h3>
-          <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
+          <div className='skills-card'>
+            <SiJavascript className='skills-card-img' />
+            <h5 className='skills-card-name'>Javascript</h5>
           </div>
           <div>
             <SiHtml5 />

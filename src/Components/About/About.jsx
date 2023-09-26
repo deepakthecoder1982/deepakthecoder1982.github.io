@@ -14,12 +14,12 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
-      <div id='about' className="about center section">
+      <div id='#about' className="about center section">
         <h1 data-aos="fade-right">
-          Hi, I am <span className="about__name">Deepak Yadav</span>
+          Hi, I am <span className="about__name" id="user-detail-name">Deepak Yadav</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
+        <p className="about__desc" data-aos="fade-right" id="user-detail-intro">
           A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
         </p>
         <div className="about__contact center">
@@ -29,6 +29,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
             className="link link--icon"
+            id="contact-github"
           >
             <GitHubIcon />
           </a>
@@ -38,6 +39,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="github"
             className="link link--icon"
+            id="contact-email"
           >
             <EmailIcon />
           </a>
@@ -48,6 +50,7 @@ export const About = () => {
             rel="noreferrer"
             aria-label="github"
             className="link link--icon"
+            id="contact-phone"
           >
             <PhoneIcon />
           </a>
@@ -57,6 +60,7 @@ export const About = () => {
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
+            id="contact-linkedin"
           >
             <LinkedInIcon />
           </a>
@@ -68,6 +72,7 @@ export const About = () => {
               window.open("https://drive.google.com/file/d/1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr/view","_blank")
             }}
             rel="noreferrer"
+            id="resume-link-2"
           >
             <DescriptionIcon />
           </a>

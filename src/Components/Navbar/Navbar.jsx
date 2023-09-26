@@ -19,7 +19,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav className="center nav" id="nav-menu">
+      <nav className="center nav nav-link" id="nav-menu">
         <ul
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"
@@ -28,7 +28,7 @@ export const Navbar = () => {
             <a
               href="#home"
               onClick={() => toggleNavList("#home")}
-              className="link link--nav"
+              className="link link--nav nav-link home"
             >
               Home
             </a>
@@ -37,16 +37,16 @@ export const Navbar = () => {
             <a
               href="#about"
               onClick={() => toggleNavList("#about")}
-              className="link link--nav"
+              className="link link--nav nav-link about"
             >
               About
             </a>
           </li>
-          <li className="nav__list-item">
+          <li className="nav__list-item ">
             <a
               href="#skills"
               onClick={() => toggleNavList("#skills")}
-              className="link link--nav"
+              className="link link--nav nav-link skills"
             >
               Skills
             </a>
@@ -55,7 +55,7 @@ export const Navbar = () => {
             <a
               href="#projects"
               onClick={() => toggleNavList("#projects")}
-              className="link link--nav"
+              className="link link--nav nav-link projects"
             >
               Projects
             </a>
@@ -64,7 +64,7 @@ export const Navbar = () => {
             <a
               href="#contact"
               onClick={() => toggleNavList("#contact")}
-              className="link link--nav"
+              className="link link--nav nav-link contact"
             >
               Contact
             </a>
@@ -76,8 +76,9 @@ export const Navbar = () => {
                 toggleNavList();
                 window.open("https://drive.google.com/file/d/1lrwNui5KZRUUIYUnxf7eeVsecZhBVXLr/view","_blank")
               }}
-              className="link link--nav"
+              className="link link--nav nav-link resume"
               rel="noreferrer"
+              id="resume-link-1"
             >
               Resume
             </a>
