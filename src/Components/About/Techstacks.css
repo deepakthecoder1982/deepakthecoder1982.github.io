@@ -5,18 +5,18 @@
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
-  height: 50vh;
-  /* max-height: 400px; */
+  height: 80vh;
+  max-height: 600px;
 }
 
 .toolsSection {
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
-  height: 26vh;
+  height: 50vh;
 }
 .toolsSection > div {
-  width: 11%;
+  width: 9vw;
   height: 16vh;
   max-height: 140px;
   box-shadow: var(--shadow);
@@ -31,7 +31,7 @@
   transition: all 0.5s ease 0s;
 }
 .techsection > div {
-  width: 11%;
+  width: 9vw;
   height: 16vh;
   max-height: 140px;
   box-shadow: var(--shadow);
@@ -90,12 +90,12 @@
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;
-    height: 18vh;
+    height: 70vh;
   }
   .toolsSection > div {
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;
-    height: 18vh;
+    height: 40vh;
   }
 }

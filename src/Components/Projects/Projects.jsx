@@ -26,21 +26,21 @@ import { IoLogoJavascript } from 'react-icons/io';
 export const Projects = () => {
   return (
     <>
-      <div className="section">
+      <div className="section" data-aos="fade-right">
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
         <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div data-aos="">
                 <img
                   src="https://user-images.githubusercontent.com/108220666/256259386-ccdc0a2d-e483-430b-a018-5db8dadca5bf.png"
                   alt="Masai Vaccination Center"
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information" data-aos="">
               <h2 style={{ textAlign: 'center' }} className='project-title'>Masai Vaccination Center</h2>
               <p className='project-title-description'>
                 An online platform to track the Vaccination of patients build
@@ -77,7 +77,7 @@ export const Projects = () => {
         <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div data-aos="">
                 <img
                   width={'100%'}
                   height={'100%'}
@@ -86,7 +86,7 @@ export const Projects = () => {
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information" data-aos="">
               <h2 style={{ textAlign: 'center' }} className='project-title'>
                 Clothy : Clothes shoping platform
               </h2>
@@ -129,14 +129,14 @@ export const Projects = () => {
         <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div data-aos="">
                 <img
                   src="https://user-images.githubusercontent.com/108220666/248779041-67ff3759-2fe0-4560-ab56-be58ac890149.png"
                   alt=""
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information" data-aos="">
               <h2 style={{ textAlign: 'center' }}>TODO:Your Task Manager</h2>
               <p>
                 Mange your task on time with the help of TODO with a great UI.
@@ -176,11 +176,11 @@ export const Projects = () => {
         <div className="projects_container project-card">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div data-aos="">
                 <img src="https://user-images.githubusercontent.com/110231091/223406440-15f59025-923e-4a37-8130-d523fc9a7d49.png" alt="Sports Wear Delight" />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information" data-aos="">
               <h2 style={{ textAlign: 'center' }}>SWD: Sports Wear Delight</h2>
               <p style={{textAlign:'center'}}>
                 Sports Wear Delight is a clone of Eastern Mountain Sports.

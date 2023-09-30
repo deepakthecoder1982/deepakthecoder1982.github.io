@@ -15,8 +15,9 @@ import {
   SiSublimetext,
   SiCycling74,
   SiRailway,
+  SiXampp,
 } from 'react-icons/si';
-import { DiAws, DiCss3, DiDjango, DiHeroku, DiLinux, DiMongodb, DiMysql, DiPython, DiSass, DiSublime, DiVisualstudio } from 'react-icons/di';
+import { DiAws, DiComposer, DiCss3, DiDjango, DiHeroku, DiLinux, DiMongodb, DiMysql, DiPhp, DiPython, DiSass, DiSublime, DiVisualstudio } from 'react-icons/di';
 import { SiJavascript } from 'react-icons/si';
 import { VscCode, VscGithub } from 'react-icons/vsc';
 import { BsBootstrap } from 'react-icons/bs';
@@ -78,14 +79,14 @@ export const Techstacks = () => {
             <DiDjango/>
             <h5>Django</h5>
           </div>
-          {/* <div>
-            <FaAngular/>
-            <h5>Angular</h5>
-          </div> */}
-          {/* <div>
+          <div>
+            <DiPhp/>
+            <h5>PHP</h5>
+          </div>
+          <div>
             <DiMysql/>
             <h5>MySQL</h5>
-          </div> */}
+          </div>
         </div>
         <div className="toolsSection" >
           <h3 style={{ color: 'whitesmoke',textAlign:'center',margin:'1.6rem auto',fontSize:'1.8rem'}}> Tools</h3>
@@ -104,6 +105,14 @@ export const Techstacks = () => {
           <div>
             <DiVisualstudio />
             <h5>Vs Code</h5>
+          </div>
+          <div>
+            <DiComposer />
+            <h5>Composer</h5>
+          </div>
+          <div>
+            <SiXampp />
+            <h5>Xampp</h5>
           </div>
           {/* <div>
             <DiHeroku/>

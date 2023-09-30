@@ -40,4 +40,7 @@
   .about > :nth-child(2) {
     font-size: 1.5rem;
   }
+  .about > h1 {
+    text-align: center;
+  }
 }

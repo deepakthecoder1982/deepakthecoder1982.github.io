@@ -19,8 +19,8 @@ export const About = () => {
           Hi, I am <span className="about__name" id="user-detail-name">Deepak Yadav</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right" id="user-detail-intro">
-          A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
+        <p className="about__desc" data-aos="fade-right" id="user-detail-intro" style={{textAlign:'center'}}>
+        As an aspiring web developer with a strong interest in Generative AI, I am dedicated to learning and staying updated with the latest trends in the field. I bring a fresh perspective and a passion for innovation, eager to explore opportunities to apply my skills and contribute to exciting projects.
         </p>
         <div className="about__contact center">
           <a
